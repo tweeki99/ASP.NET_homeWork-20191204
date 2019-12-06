@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<form method="post" asp-action="auth">
+    <p>
+        <label>Пароль:</label><br />
+        <input type="password" name="password" />
+    </p>
+    <p>
+        <input type="submit" value="Отправить" />
+    </p>
+</form>
+
